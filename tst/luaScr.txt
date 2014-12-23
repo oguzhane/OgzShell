@@ -1,0 +1,3 @@
+_SELECTEDPATHS = {[[C:\Users\unquiet\Desktop\UNQ.zip]], }
+_MENU = {CanShowMenu=true, Script={Show=[[_MENU.Items[2]["ExtData"]={IsVisible=true}]]}, Text=[[Ogz's Context]], IsEnabled=true, ImagePath=nil, ExtData={}, Commands=nil, Items={{Text=[[Run Batch]], IsEnabled=true, ImagePath=nil, ExtData={IsVisible=false, }, Commands=nil, Items={}, }, {Text=[[Run PS]], IsEnabled=false, ImagePath=nil, ExtData={IsVisible=true, }, Commands=nil, Items={}, }, }, }
+_MENU.Items[2]["ExtData"]={IsVisible=true}

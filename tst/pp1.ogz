@@ -1,0 +1,33 @@
+{
+  "CanShowMenu": true,
+  "Text": "Ogz's Context",
+  "IsEnabled": true,
+  "Items": [
+    {
+      "Text": "Run Batch",
+      "IsEnabled": true,
+      "Commands": [
+        {
+          "$type": "OgzShell.CLASSES.BatchScript, OgzShell",
+          "CanShowConsole": true,
+          "Path": "C:\\OguzhanE\\Projects\\CSharp\\WinForms\\OgzShell\\tst\\ts.bat",
+          "Parameters": " custom par"
+        }
+      ],
+      "Items": []
+    },
+    {
+      "Text": "Run PS",
+      "IsEnabled": true,
+      "Commands": [
+        {
+          "$type": "OgzShell.CLASSES.PowerShellScript, OgzShell",
+          "CanShowConsole": true,
+          "Path": "C:\\OguzhanE\\Projects\\CSharp\\WinForms\\OgzShell\\tst\\test.ps1",
+          "Parameters": " my pars"
+        }
+      ],
+      "Items": []
+    }
+  ]
+}
